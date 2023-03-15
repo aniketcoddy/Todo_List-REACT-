@@ -1,13 +1,133 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: #daa876;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    margin-top: 95px;
+    margin-left: 198px;
+    border: 2px solid #1da0a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: relative;
+    width: 385px;
+    box-shadow: 1px 2px 3px 4px #817979;
+    height: 153px;
+    background: #0e2e38;
+    border-radius: 4px;
+}
+
+.todo{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    font-family: cambridge;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    color: #fdfbf5;
+    flex: none;
+    flex-grow: 0;
+}
+
+.Text{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    background: #051013;
+    height: 56px;
+    border-radius: 4px;
+    align-self: stretch;
+    margin-top: -25px;
+    font-family: 'Roboto';
+    color: #d6cbcb;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    flex-wrap: wrap;
+
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9px;
+}
+
+.btn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    margin-left: -185px;
+    gap: 10px;
+    width: 51px;
+    height: 31px;
+    background: #daa876;
+    border-radius: 12px;
+}
+
+.add{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 560;
+    color: #051013;
+    font-size: 20px;
+}
+.btn1:hover{
+    cursor:pointer;
+}
+
+.task{
+    margin-top: 48px;
+    display: flex;
+    gap: 31px;
+    flex-flow: column;
+}
+
+.container1{
+    margin-left: 198px;
+    border: solid 2px #1da0a0;
+    display: flex;
+    border-radius: 7px;
+    padding-left: 9px;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    width: 403px;
+    box-shadow: 0px 2px 3px 2px #817979;
+    height: fit-content;
+    background: #0e2e38;
+}
+
+.word{
+    word-break: break-all;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    width: 282px;
+    font-weight: 550;
+    color: #50c8c8;
+}
+
+.delete{
+    width: 35px;
+    height: 35px;
+}
+
+.done{
+    width: 35px;
+    height: 35px;
+}
+
+.divide{
+    display: flex;
+    gap: 9px;
 }
