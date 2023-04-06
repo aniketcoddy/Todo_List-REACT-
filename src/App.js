@@ -57,6 +57,7 @@ export default function App(id) {
 
   return (
     <div>
+      <div className="media">
       <div className="container">
         <h1 className="todo">Todo List</h1>
         <input className="Text" value={value} onChange={handleonchange} />
@@ -97,6 +98,7 @@ export default function App(id) {
         })}
         ;
       </div>
+     </div>
     </div>
   );
 }

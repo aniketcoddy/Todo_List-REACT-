@@ -2,6 +2,10 @@ body{
     background-color: #daa876;
 }
 
+.media{
+    margin-left: 1px;
+}
+
 .container{
     margin-top: 95px;
     margin-left: 198px;
@@ -130,4 +134,11 @@ body{
 .divide{
     display: flex;
     gap: 9px;
+}
+
+@media only screen and (max-width: 558px){
+
+    .media{
+        margin-left: -183px;
+    }
 }
